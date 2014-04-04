@@ -1,0 +1,85 @@
+body {
+	margin: 4em 8em;
+	font-family: 'Garamond', serif;
+	font-size: 1.3em;
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.07, #FAF7A5),
+	color-stop(1, #FFFEF0)
+	);
+	background-image: -o-linear-gradient(top, #FAF7A5 7%, #FFFEF0 100%);
+	background-image: -moz-linear-gradient(top, #FAF7A5 7%, #FFFEF0 100%);
+	background-image: -webkit-linear-gradient(top, #FAF7A5 7%, #FFFEF0 100%);
+	background-image: -ms-linear-gradient(top, #FAF7A5 7%, #FFFEF0 100%);
+	background-image: linear-gradient(to top, #FAF7A5 7%, #FFFEF0 100%);
+	height: 1000px; 
+	overflow-y: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Baumans', 'Verdana', sans-serif;
+}
+
+
+h2 {
+	margin-bottom: -0.5em;
+	background: #8A8A8A;
+	padding: 4px 4px 4px 8px;
+	border-radius: 4px;
+	color: #FFEC8B;
+}
+
+section {
+	padding-bottom: 0.5em;
+}
+
+ul {
+	list-style-type: none;
+	margin-left: -1em;
+}
+
+ul li {
+	padding-top: 0.5em;
+}
+
+.top {
+	text-align: center;
+	border-bottom: 2px solid gray;
+	font-size: 150%;
+}
+
+.contact {
+	margin-top: -1em;
+}
+
+.content {
+	position: relative;
+	background: white;
+	padding: 30px;
+	border-radius: 4px;
+}
+
+.objective {
+	position: absolute;
+	width: 25%;
+	right: 14px;
+	top: 210px;
+	background: #ffe;
+	padding: 15px 15px 10px 15px;
+	border-radius: 4px;
+	box-shadow: 3px 3px 3px #ccc;
+	border: 1px solid #ccc;
+}
+
+.education h2 {
+	width: 70%;
+}
+
+.objective h2 {
+	background: none;
+	padding: 0;
+	color: #363333;
+	margin-top: 0;
+}
